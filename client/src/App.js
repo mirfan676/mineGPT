@@ -1,27 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import './normal.css';
 
 function App() {
   return (
     <div className="App">
       <aside className="sidemenu">
-        <h1>side</h1>
+        <div className="side-menu-button">
+          <span>+</span>
+          Add new chat
+        </div>
       </aside>
-      <section className="chatbox"></section>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className="chatbox">
+        <div className="chat-input-holder">
+          <textArea className="chat-input-textarea"
+            rows="1" >
+          </textArea>
+        </div>
+      </section>
+
     </div>
   );
 }
