@@ -8,9 +8,6 @@ const openai = new OpenAIApi(configuration);
 // const response = await openai.listEngines();
 
 
-
-
-
 const app = express();
 const port = 3080;
 
