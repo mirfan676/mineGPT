@@ -35,12 +35,7 @@ function App() {
         </div>
         <div className="chat-input-holder">
           <form onSubmit={handleSubmit}>
-            <input
-              rows="1"
-              value={input}
-              onChange={() => setInput(input) = e.target.value}
-              className="chat-input-textarea">
-            </input>
+
           </form>
         </div>
       </section>
